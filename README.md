@@ -1,24 +1,15 @@
-# g6-flow
+# 关于 g6 流程图锚点(anchor)的思考🤔
 
-## Project setup
-```
-npm install
-```
+## 什么是锚点
+锚点是指在链接两个节点的时候固定的出发点与结束点。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 不固定锚点
+如果不固定锚点，那么如果拖动节点，绘制的线条会自动选择最近的
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![锚点图1](https://cdn.nlark.com/yuque/0/2019/png/89796/1550115815300-e4055903-b3b1-484b-9864-7ecd474c1af9.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 区别 g6 的开始锚点与结束锚点
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 绘制出锚点
+
+## 锚点之间进行连线
