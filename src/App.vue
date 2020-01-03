@@ -71,7 +71,8 @@ export default {
             { out: true, offsetX: 0, offsetY: 35 },
             { out: true, offsetX: 35, offsetY: 0 },
             { in: true, offsetX: 0, offsetY: -35 },
-            { in: true, offsetX: -35, offsetY: 0 }
+            { in: true, offsetX: -35, offsetY: 0 },
+            { in: true, offsetX: -50, offsetY: -50 }
           ]
         },
         defaultEdge: {
